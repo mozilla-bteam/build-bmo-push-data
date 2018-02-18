@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./init-git-checkouts
+./build-bmo-push-data.pl

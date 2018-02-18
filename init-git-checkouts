@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git clone https://github.com/mozilla-bteam/bmo.git \
+            /opt/bugzilla/repo/bmo/master
+cd /opt/bugzilla/repo/bmo/master
+git fetch origin
+git branch -f production origin/production
+git worktree add ../production production

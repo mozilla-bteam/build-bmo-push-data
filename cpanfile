@@ -1,0 +1,12 @@
+requires 'File::Slurp';
+requires 'IPC::System::Simple';
+requires 'Term::ReadKey';
+requires 'DateTime';
+requires 'Moo';
+requires 'JSON::XS';
+requires 'LWP::UserAgent';
+requires 'File::Copy::Recursive';
+requires 'JSON';
+requires 'Config::General';
+requires 'CGI';
+requires 'LWP::Protocol::https';
